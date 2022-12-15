@@ -6,7 +6,7 @@ const Form = () => {
     <div className="bg-white p-5 ms-5 me-5 mb-5">
       <form className="w-50">
         <div className="mb-3">
-          <label for="exampleInputEmail1" className="form-label">
+          <label htmlFor="exampleInputEmail1" className="form-label">
             Wallet Address
           </label>
           <input
@@ -19,23 +19,23 @@ const Form = () => {
         </div>
         <fieldset disabled>
           <div className="mb-3 ">
-            <label for="disabledTextInput" class="form-label">
+            <label htmlFor="disabledTextInput" className="form-label">
               Request Type
             </label>
             <div className="d-flex gap-3">
               <input
                 type="text"
                 id="disabledTextInput"
-                class="form-control"
+                className="form-control"
                 placeholder="Disabled input"
-                value="20 Test Link"
+                value="20 Test Link" readOnly
               />
               <input
                 type="text"
                 id="disabledTextInput"
-                class="form-control"
+                className="form-control"
                 placeholder="Disabled input"
-                value="0.5 ETH"
+                value="0.5 ETH" readOnly
               />
             </div>
           </div>
