@@ -10,8 +10,10 @@ const History = () => {
       setHistory(false);
     };
     return (
-      <div>
-        <p>Request History</p>
+      <div className='mt-3'>
+        <p>
+          <b>Request History</b>
+        </p>
         <div className="d-flex gap-3">
           <button
             type="submit"

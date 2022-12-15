@@ -7,14 +7,10 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 const Notice = () => {
     return (
       <Navbar bg="primary" expand="lg">
-        <Container>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse
-            id="basic-navbar-nav"
-            className="justify-content-center"
-          >
-            <Navbar.Brand className='text-white'>Notice here</Navbar.Brand>
-          </Navbar.Collapse>
+        <Container className="justify-content-center">
+          <Navbar.Brand className="text-white text-center">
+            Notice here
+          </Navbar.Brand>
         </Container>
       </Navbar>
     );
